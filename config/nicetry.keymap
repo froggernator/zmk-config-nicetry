@@ -13,10 +13,10 @@
 
         lower_layer {
             bindings = <
-                &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6    &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT  &kp DOWN &kp UP &kp RIGHT &trans &trans
-                &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans    &trans   &trans &trans    &trans &trans
-                &kp LGUI   &trans       &kp SPACE    &kp LEFT     &kp DOWN     &kp UP         &kp RIGHT &kp RET  &trans &kp RALT
+                &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+                &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
+                &kp LGUI     &trans       &kp SPACE      &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT &kp RET  &trans   &kp RALT
             >;
         };
 
@@ -55,4 +55,9 @@
 
         col-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>,   // Column 0 -> P0.06
                     <&gpio0 8 GPIO_ACTIVE_LOW>,   // Column 1 -> P0.08
-                    <&gpio0 17 GPIO_ACTIVE_LOW>,  // Column​⬤
+                    <&gpio0 17 GPIO_ACTIVE_LOW>,  // Column 2 -> P0.17
+                    <&gpio0 20 GPIO_ACTIVE_LOW>,  // Column 3 -> P0.20
+                    <&gpio0 22 GPIO_ACTIVE_LOW>,  // Column 4 -> P0.22
+                    <&gpio0 24 GPIO_ACTIVE_LOW>;  // Column 5 -> P0.24
+    };
+};

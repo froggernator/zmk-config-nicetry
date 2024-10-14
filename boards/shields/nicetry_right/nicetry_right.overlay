@@ -1,1 +1,32 @@
+/ {
+    chosen {
+        zmk,matrix-transform = &right_matrix_transform;
+    };
 
+    right_matrix_transform: matrix_transform {
+        compatible = "zmk,matrix-transform";
+        rows = <4>; // Adjust this based on your design
+        columns = <6>; // Adjust this based on your design
+        map = <0  1  2  3  4  5
+               6  7  8  9  10 11
+               12 13 14 15 16 17
+               18 19 20 21 22 23>;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";  // Adjust according to your wiring
+
+        row-gpios = <&gpio1 0 GPIO_ACTIVE_LOW>,  // Adjust pinout
+                    <&gpio0 11 GPIO_ACTIVE_LOW>, 
+                    <&gpio1 4 GPIO_ACTIVE_LOW>,  
+                    <&gpio1 6 GPIO_ACTIVE_LOW>;  
+
+        col-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>,   
+                    <&gpio0 8 GPIO_ACTIVE_LOW>,   
+                    <&gpio0 17 GPIO_ACTIVE_LOW>,  
+                    <&gpio0 20 GPIO_ACTIVE_LOW>,  
+                    <&gpio0 22 GPIO_ACTIVE_LOW>,  
+                    <&gpio0 24 GPIO_ACTIVE_LOW>;  
+    };
+};

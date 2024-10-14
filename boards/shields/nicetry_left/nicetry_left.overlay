@@ -9,17 +9,17 @@
         label = "kscan0";
         diode-direction = "col2row";  // Adjust according to your wiring
 
-#        row-gpios = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // BUTTOM LEFT NICE NANO
-#                    <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-#                    <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-#                    <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//        row-gpios = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // BUTTOM LEFT NICE NANO
+//                    <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+//                    <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+//                    <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         
-#        col-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>,   
-#                    <&gpio0 8 GPIO_ACTIVE_HIGH>,   
-#                    <&gpio0 17 GPIO_ACTIVE_HIGH>,  
-#                    <&gpio0 20 GPIO_ACTIVE_HIGH>,  
-#                    <&gpio0 22 GPIO_ACTIVE_HIGH>,  
-#                    <&gpio0 24 GPIO_ACTIVE_HIGH>;  
+//        col-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>,   
+//                    <&gpio0 8 GPIO_ACTIVE_HIGH>,   
+//                    <&gpio0 17 GPIO_ACTIVE_HIGH>,  
+//                    <&gpio0 20 GPIO_ACTIVE_HIGH>,  
+//                    <&gpio0 22 GPIO_ACTIVE_HIGH>,  
+//                    <&gpio0 24 GPIO_ACTIVE_HIGH>;  
 
 
         row-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // TOP RIGHT NICE NANO

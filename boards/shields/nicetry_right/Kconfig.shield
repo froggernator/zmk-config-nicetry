@@ -1,2 +1,2 @@
-config SHIELD_nicetry_right
+config SHIELD_NICETRY_RIGHT
     def_bool $(shields_list_contains,nicetry_right)

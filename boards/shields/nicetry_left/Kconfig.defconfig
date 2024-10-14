@@ -1,4 +1,4 @@
-if SHIELD_NICETRY_LEFT
+if SHIELD_nicetry_left
   
 config ZMK_KEYBOARD_NAME
     default "nicetry_left"

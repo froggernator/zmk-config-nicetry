@@ -1,5 +1,6 @@
 / {
     chosen {
+        zmk,kscan = &kscan0;
         zmk,matrix-transform = &right_matrix_transform;
     };
 
@@ -17,9 +18,10 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
+        label = "kscan0";
         diode-direction = "col2row";  // Adjust according to your wiring
 
-        row-gpios = <&gpio1 0 GPIO_ACTIVE_LOW>,  // Adjust pinout
+        row-gpios = <&gpio1 0 GPIO_ACTIVE_LOW>,  // Same pinout as the left side
                     <&gpio0 11 GPIO_ACTIVE_LOW>, 
                     <&gpio1 4 GPIO_ACTIVE_LOW>,  
                     <&gpio1 6 GPIO_ACTIVE_LOW>;  

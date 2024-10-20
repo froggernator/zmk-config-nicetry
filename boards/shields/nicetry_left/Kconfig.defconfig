@@ -1,6 +1,17 @@
 if SHIELD_NICETRY_LEFT
   
 config ZMK_KEYBOARD_NAME
-    default "nicetry_left"
-  
+    default "tboard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+
+if SHIELD_NICETRY_LEFT || SHIELD_NICETRY_RIGHT
+
+config ZMK_SPLIT
+    default y
+
 endif

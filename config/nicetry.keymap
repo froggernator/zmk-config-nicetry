@@ -9,10 +9,10 @@
         // Default Layer (Layer 0)
         default_layer {
             bindings = <
-                &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO    &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO
-                &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO    &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO
-                &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO    &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO
-                &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO    &kp NO &kp NO &kp NO &kp NO &kp NO &kp NO
+                &kp A &kp A &kp A &kp A &kp A &kp A    &kp A &kp A &kp A &kp A &kp A &kp A 
+                &kp A &kp A &kp A &kp A &kp A &kp A    &kp A &kp A &kp A &kp A &kp A &kp A 
+                &kp A &kp A &kp A &kp A &kp A &kp A    &kp A &kp A &kp A &kp A &kp A &kp A 
+                &kp A &kp A &kp A &kp A &kp A &kp A    &kp A &kp A &kp A &kp A &kp A &kp A 
             >;
         };
     };

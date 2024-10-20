@@ -7,7 +7,7 @@
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "kscan0";
-        diode-direction = "col2row";  // Adjust according to your wiring
+        diode-direction = "col2row";
 
 
         row-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // TOP RIGHT NICE NANO
@@ -26,8 +26,8 @@
 
     right_matrix_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
-        rows = <4>; // Adjust this based on your design
-        columns = <6>; // Adjust this based on your design
+        rows = <4>;
+        columns = <6>;
         map = < 0 1 2 3 4 5
                 6 7 8 9 10 11
                 12 13 14 15 16 17

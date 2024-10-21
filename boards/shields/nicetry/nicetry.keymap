@@ -19,6 +19,7 @@
                 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B            &kp N       &kp M       &kp COMMA   &kp DOT     &kp UP      &kp SLASH
                 &trans      &kp LCTRL   &kp LALT    &kp LCMD    &lt 1 SPACE &lt SPACE        &kp 2 SPACE &kp 2 SPACE &mo 3       &kp LEFT    &kp DOWN    &kp RIGHT
             >;
+        };
 
         NUMPAD {
             bindings = <
@@ -27,7 +28,7 @@
                 &trans      &kp N1      &kp N2      &kp N3      &kp KP_MULTIPLY &kp DEL          &trans      &trans      &trans      &trans      &trans      &trans
                 &trans      &kp N0      &kp COMMA   &kp DOT     &mo 4           &mo 4            &mo 4       &mo 4       &mo 3       &trans      &trans      &trans
             >;
-
+        };
 
         NUMBERROW {
             bindings = <
@@ -35,8 +36,8 @@
                 &trans      &trans      &trans      &trans      &trans      &trans           &trans      &trans      &trans      &trans      &trans      &kp EQUAL
                 &trans      &kp NUBS    &trans      &trans      &trans      &trans           &trans      &trans      &trans      &trans      &trans      &kp RBKT
                 &trans      &trans      &trans      &trans      &mo 4       &mo 4            &mo 4       &mo 4       &trans      &trans      &trans      &kp BSLH
->;
-
+            >;
+        };
 
         MEDIA {
             bindings = <
@@ -45,7 +46,7 @@
                 &trans      &trans      &trans      &trans      &trans      &trans           &trans      &trans      &trans      &trans       &kp PG_UP    &trans
                 &trans      &trans      &trans      &trans      &trans      &trans           &trans      &trans      &trans      &kp HOME     &kp PG_DN    &kp END
             >;
-
+        };
 
         FKEYS {
             bindings = <

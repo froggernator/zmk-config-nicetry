@@ -1,6 +1,0 @@
-if SHIELD_NICETRY_RIGHT
-  
-config ZMK_KEYBOARD_NAME
-    default "nicetry_right"
-  
-endif

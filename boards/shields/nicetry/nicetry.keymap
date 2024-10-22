@@ -4,6 +4,7 @@
 
 &soft_off {
     hold-time-ms = <5000>;
+    };
 
 / {
     keymap {

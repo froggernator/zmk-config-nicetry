@@ -3,10 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&soft_off {
-    hold-time-ms = <5000>;
-    };
-
 / {
     keymap {
         compatible = "zmk,keymap";

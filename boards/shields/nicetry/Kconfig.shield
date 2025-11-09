@@ -1,5 +1,5 @@
-config SHIELD_NICETRY_LEFT
-    def_bool $(shields_list_contains,nicetry_left)
+config SHIELD_TBOARD_LEFT
+    def_bool $(shields_list_contains,tboard_left)
 
-config SHIELD_NICETRY_RIGHT
-    def_bool $(shields_list_contains,nicetry_right)
+config SHIELD_TBOARD_RIGHT
+    def_bool $(shields_list_contains,tboard_right)

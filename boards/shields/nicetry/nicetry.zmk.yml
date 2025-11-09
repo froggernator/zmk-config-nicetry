@@ -1,6 +1,6 @@
 file_format: "1"
-id: nicetry
-name: nicetry
+id: tboard
+name: tboard
 type: shield
 url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
@@ -8,5 +8,5 @@ exposes:
 features:
   - keys
 siblings:
-  - nicetry_left
-  - nicetry_right
+  - tboard_left
+  - tboard_right

@@ -1,4 +1,4 @@
-#include "nicetry.dtsi"
+#include "tboard.dtsi"
 
 &default_transform {
     col-offset = <6>;

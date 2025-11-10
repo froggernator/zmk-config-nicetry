@@ -1,12 +1,12 @@
 file_format: "1"
 id: tboard
-name: tboard
+name: TBoard
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/froggernator/zmk-config-tboard
 requires: [pro_micro]
-exposes:
 features:
   - keys
 siblings:
   - tboard_left
   - tboard_right
+  - tboard_central

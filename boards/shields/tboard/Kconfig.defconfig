@@ -1,22 +1,8 @@
-if SHIELD_TBOARD_LEFT
-config ZMK_SPLIT
-    default y
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
-endif
-
-if SHIELD_TBOARD_RIGHT
-config ZMK_SPLIT
-    default y
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
-endif
-
 if SHIELD_TBOARD_CENTRAL
 config ZMK_SPLIT
     default y
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 config ZMK_KEYBOARD_NAME
-    default "tBoard"   # keep ≤15 chars
+    default "tBoard"
 endif

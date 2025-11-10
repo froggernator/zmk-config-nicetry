@@ -2,7 +2,6 @@
 
 / {
     chosen {
-        /* Reuse the shared 12x4 layout and kscan so the keymap can compile */
         zmk,physical-layout = &default_layout;
         zmk,kscan = &kscan0;
     };

@@ -1,6 +1,8 @@
 ---
 include:
   - board: nice_nano_v2
+    shield: tboard_central
+  - board: nice_nano_v2
     shield: tboard_left
   - board: nice_nano_v2
     shield: tboard_right

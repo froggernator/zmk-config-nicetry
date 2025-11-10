@@ -1,0 +1,6 @@
+#include "tboard.dtsi"
+/ {
+    chosen {
+        zmk,kscan = &kscan0;   // use the shared matrix from tboard.dtsi
+    };
+};

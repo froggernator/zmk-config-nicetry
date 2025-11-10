@@ -4,5 +4,7 @@ include:
     shield: tboard_central
   - board: nice_nano_v2
     shield: tboard_left
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y
   - board: nice_nano_v2
     shield: tboard_right
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y

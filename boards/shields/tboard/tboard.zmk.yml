@@ -6,7 +6,6 @@ url: https://github.com/froggernator/zmk-config-tboard
 requires: [pro_micro]
 features:
   - keys
-  - studio 
 siblings:
   - tboard_left
   - tboard_right
